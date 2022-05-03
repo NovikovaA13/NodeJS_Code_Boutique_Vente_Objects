@@ -1,0 +1,19 @@
+{
+  "name": "NodeJS_Code_Boutique_Vente_Objects ",
+  "author": "Novikova Anna",
+  "version": "1.0.0",
+  "description": "Code d'une application Web CRUD via des API REST écrite aved NodeJS, Express et MongoDB pour un magasin en ligne simple avec un système d'authentification et gestion des fichiers utilisateurs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4"
+  }
+}
